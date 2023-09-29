@@ -207,3 +207,30 @@ public class CicloFor
     }
 }
 ~~~
+### 1.4. Otros elementos del lenguaje
+#### 1.4.1 Tipos de Datos
+
+| Tipo  | Descripción           | Longitud |
+--------------------------------------------
+| byte  | entrero con signo     | 1 byte   |
+| char  | entero sin signo      | 2 bytes  |
+| short | entero con signo      | 2 bytes  |
+| int   | entero con signo      | 4 bytes  |
+| long  | entero con signo      | 8 bytes  | 
+| float | punto flotante        | 4 bytes  |
+| double| punto flotante        | 8 bytes  |
+|boolean| Obj. Logico (t or f)  | 1 byte   |
+| String| Obj.                  |          |
+--------------------------------------------
+
+*En Java no existe **unsigned** como en C. Por esta razón, los tipos de datos enteros no adminten valores negativos.*
+
+#### 1.4.2. Definición de constantes
+Las constantes se definen fuera de los métodos utilizando el modificador final. Por lo general se definen como public and static.
+
+#### 1.4.3. Arrays
+
+    
+
+
+
