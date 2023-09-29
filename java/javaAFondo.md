@@ -135,4 +135,75 @@ public class SentenciaSwitch
     }
 }
 ~~~
+#### 1.3.5. Estructuras iteractivas 
+Disponemos de 3 estructuras: 
+- While
+- Do While 
+- For
 
+**Sintaxis While** 
+En este ciclo itera mientras que la condición se *true*
+~~~
+package libro.cap01;
+import java.util.Scanner;
+
+public class EstWhile
+{
+    public static void main (String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextline();
+
+        while(i < n)
+        {
+            //muestro el valor de i
+            System.out.print(i);
+            //incremento el valor de i
+            i++;
+        }
+    }
+}
+~~~
+
+**Sintaxis Do-While**
+~~~
+package libro.cap01;
+import java.util.Scanner;
+
+public class EstDoWhile
+{
+    public static void main (String[] args)
+    {
+        Scanner = new Scanner(System.in);
+        int n = scan.nextline();
+        int i = 1;
+
+        do
+        {
+            System.out.println(i);
+            i++;
+        }
+        while(i <= 1)
+    }
+}
+~~~
+
+**Sintaxis Ciclo for**
+~~~
+package libro.cap01;
+import java.util.Scanner;
+
+public class CicloFor
+{
+    public static main void(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int n = nextline();
+
+        for (int i = 1; i <= n; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+~~~
