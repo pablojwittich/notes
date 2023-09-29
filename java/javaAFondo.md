@@ -56,6 +56,7 @@ Java dispone de 3 estructuras de decisión:
 - Decisión in-line -> **a>b**
 
 **Sintaxis sentencia IF**
+
 if (condición)
 {
     acción1;
@@ -65,15 +66,17 @@ if (condición)
     {
         acción2;
     }
+
 **Ejemplo**
 ~~~
 package libro.cap01;
 import java.util.Scanner;
+
 public Class SentenciaIF
 {
     public static void main(String[] args)
     {
-        Scanner scan = new Scanner(System.in)
+        Scanner scan = new Scanner(System.in)e
         System.out.print("Ingrese su edad")
         int edad = scan.nextline();
 
@@ -83,8 +86,86 @@ public Class SentenciaIF
         }
             else
             {
-                System.out.println("Ud. es menor de edad")
+                System.out.println("Ud. es menor de edad");
             }
+    }
+}
+~~~
+
+**Sintaxis sentencia Switch**
+
+switch(variable)
+{
+    case valor1:
+        acció1;
+        acción2;
+        break;
+
+    case valor2:
+        acción1;
+        acción2;
+        break;
+
+    case valor3:
+        acción1;
+        acción2;
+        break;
+
+    default:
+        acción1;
+        break;
+
+}
+
+**Ejemplo**
+~~~
+package libro.cap01;
+import java.util.Scanner;
+
+public class SentenciaSwitch
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Ingrese un numero de la semana");
+        int v = scan.nextline();
+        String dia;
+
+        Switch(v)
+        {
+            case 1:
+                dia = "Lunes";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 2:
+                dia = "Martes";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 3:
+                dia = "Miercoles";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 4:
+                dia = "Jueves";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 5:
+                dia = "Viernes";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 6:
+                dia = "Sabado";
+                System.out.print("Hoy es " + dia);
+                break;
+            case 7:
+                dia = "Domingo";
+                System.out.print("Hoy es " + dia);
+                break;
+            default:
+                dia = "Dia incorrecto, ingrese un numero del 1 al 7;
+                break;
+        }
+
     }
 }
 ~~~
