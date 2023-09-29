@@ -57,17 +57,7 @@ Java dispone de 3 estructuras de decisión:
 
 **Sintaxis sentencia IF**
 
-if (condición)
-{
-    acción1;
-
-}
-    else
-    {
-        acción2;
-    }
-
-**Ejemplo**
+Ejemplo
 ~~~
 package libro.cap01;
 import java.util.Scanner;
@@ -94,26 +84,7 @@ public Class SentenciaIF
 
 **Sintaxis sentencia Switch**
 
-switch (variable):
-{
-    case valor1:
-        acción1;
-        acción2;
-        break;
-    case valor2:
-        acción1;
-        acción2;
-        break;
-    case valor3:
-        acción1;
-        acción2;
-        break;
-    default:
-        acción1;
-        break;
-}
-
-**Ejemplo**
+Ejemplo
 ~~~
 package libro.cap01;
 import java.util.Scanner;
