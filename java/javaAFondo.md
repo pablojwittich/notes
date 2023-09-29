@@ -228,6 +228,16 @@ public class CicloFor
 Las constantes se definen fuera de los métodos utilizando el modificador final. Por lo general se definen como public and static.
 
 #### 1.4.3. Arrays
+Es un conjunto de variables del mismo tipo cuyas direcciones son contiguas. Se puede acceder a cada elemento del conjuento atra vez de un nombre comun mas un subindice (que especifique la posición relativa del elemento).
+Definir e instanciar un array
+~~~
+String arr[]; //Definir
+arr [] = new String[20]; // instanciar
+String arr[] = new String[]; // Definir e insticiar
+~~~
+
+#### 1.4.4. Matrices
+
 
     
 
