@@ -211,7 +211,7 @@ public class CicloFor
 #### 1.4.1 Tipos de Datos
 
 | Tipo  | Descripción           | Longitud |
---------------------------------------------
+--------|-----------------------|----------|
 | byte  | entrero con signo     | 1 byte   |
 | char  | entero sin signo      | 2 bytes  |
 | short | entero con signo      | 2 bytes  |
@@ -221,7 +221,6 @@ public class CicloFor
 | double| punto flotante        | 8 bytes  |
 |boolean| Obj. Logico (t or f)  | 1 byte   |
 | String| Obj.                  |          |
---------------------------------------------
 
 *En Java no existe **unsigned** como en C. Por esta razón, los tipos de datos enteros no adminten valores negativos.*
 
