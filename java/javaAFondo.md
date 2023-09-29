@@ -94,27 +94,23 @@ public Class SentenciaIF
 
 **Sintaxis sentencia Switch**
 
-switch(variable)
+switch (variable):
 {
     case valor1:
-        acció1;
+        acción1;
         acción2;
         break;
-
     case valor2:
         acción1;
         acción2;
         break;
-
     case valor3:
         acción1;
         acción2;
         break;
-
     default:
         acción1;
         break;
-
 }
 
 **Ejemplo**
@@ -165,7 +161,6 @@ public class SentenciaSwitch
                 dia = "Dia incorrecto, ingrese un numero del 1 al 7;
                 break;
         }
-
     }
 }
 ~~~
