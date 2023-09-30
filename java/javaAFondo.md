@@ -237,6 +237,25 @@ String arr[] = new String[]; // Definir e insticiar
 ~~~
 
 #### 1.4.4. Matrices
+Las matrices es una arrays de dos dimensiones o una array de arrays. Podemos conocer la cantidad de filas y columnas con el atributo .length.
+Por ejemplo:
+~~~
+int mat [][] = {{1,2,3}
+              ,{4,5,6}
+              ,{7,8,9}}
+~~~
+#### 1.4.6. Literal cadena de caracteres
+Una cadena literal de caracteres se representa encerrada entre comillas dobles. En cambio una caracter literal se representa entre comillas simples.
+
+#### 1.4.7. Caracteres especiales
+En Java existen caracteres especiales, se los utiliza anteponiendo una barra, algunos de ellos son
+|Caracter| Descripción    |
+|--------|----------------|
+|\t      | Tabulador      | 
+|\n      | Salto de linea |
+|\"      | Comillas dobles|
+|\'      |Comillas simples| 
+|\\      | Barra          |
 
 
     
