@@ -251,11 +251,11 @@ Una cadena literal de caracteres se representa encerrada entre comillas dobles. 
 En Java existen caracteres especiales, se los utiliza anteponiendo una barra, algunos de ellos son
 |Caracter| Descripción    |
 |--------|----------------|
-|\t      | Tabulador      | 
-|\n      | Salto de linea |
-|\"      | Comillas dobles|
-|\'      |Comillas simples| 
-|\\      | Barra          |
+| \t     | Tabulador      | 
+| \n     | Salto de linea |
+| \"     | Comillas dobles|
+| \'     |Comillas simples| 
+| \\     | Barra          |
 
 
     
