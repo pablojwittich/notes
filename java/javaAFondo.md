@@ -257,8 +257,29 @@ En Java existen caracteres especiales, se los utiliza anteponiendo una barra, al
 | (\')   |Comillas simples| 
 | (\\)   | Barra          |
 
+### 1.5. Tratamiento de cadena de caracter
+Para poder estudiar algunos casos de manejo de caracteres tenermos que saber que:
+- Las cadenas de caracteres so tratadas como objetos. Los String no son un tipo de dato simple, son una **clase**.
+- Un objeto es una variable en vez de contener información contiene métodos (o funciones) necesarias para manimular esa información.
+- Las clases definen los tipos de datos de los objetos.
 
-    
-
+#### 1.5.1. Acceso a los caracteres de una String
+Una cadena representa una secuencia finita de cero o mas caracteres numerados al partir del cero. 
+- El método **CharAt()** retorna un caracter (tipo char) ubicado en la posición determinada.
+- El método **.length()** retorna la cantidad de caracteres que tiene la cadena.
+~~~
+package libro.cap01;
+public class cadena
+{
+    public static void main(String[] args)
+    {
+        String s = "Esta es una cadena";
+        System.out.println(s.charAt(0));
+        System.out.println(s.charAt(5));
+        System.out.println(s.charAt(s.length(-1));
+    }
+}
+~~~
+*No debemos confundir el metodo length() de la cadena con el atributo length de los arrays*
 
 
